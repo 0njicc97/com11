@@ -9,4 +9,6 @@ print("fine me.")
 print("hello world in cocming.")
 print("cyber sercurity.")
 print("hello world.")
-print("bos.")
+print("age.")
+input("what is your name? "
+print(5 + 5)
