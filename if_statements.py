@@ -50,8 +50,21 @@ if first >= 7:
     if second < first:
         print("the second number is smaller")
 
-
-
+print("please enter the first whole number.")
+first=int(input())
+if first == 2:
+    print("the first number is even")
+else:
+    print("please enter the second whole number.")
+    second=int(input())
+    if second == 4:
+        print("the second number is even")
+    else:
+        print("please enter the third whole number.")
+        third=int(input())
+        if third == 5:
+            print("the number is odd")
+            
 
 
 
