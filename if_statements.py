@@ -32,6 +32,14 @@ if number % 2 == 0:
 else:
     print("the number is odd")
 
+print("tha car is red.")
+car=input()
+if car == "red":
+    print("the car is red")
+else:
+    print("the car is not red")
+    print("i will like a red car")
+
 
 
 
