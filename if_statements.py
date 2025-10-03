@@ -41,5 +41,17 @@ else:
     print("i will like a red car")
 
 
+print("please enter the first number")
+first=int(input())
+if first >= 7:
+    print("the first number is greater")
+    print("please enter the second number")
+    second=int(input())
+    if second < first:
+        print("the second number is smaller")
+
+
+
+
 
 
