@@ -8,6 +8,12 @@ for i in range(num):
         print("Avoiding...Done! ")
         print("How many bars should be charged?")
         num = int(input())
+
+        print("calculate the sum of the first of the first 100 number")
+        first = 100
         for i in range(num):
-            print("charging")
-            print("battery fully charged")
+            first += 100
+            print("...done! the answer is:", 5050)
+
+
+
