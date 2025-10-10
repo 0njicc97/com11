@@ -6,3 +6,8 @@ for i in range(num):
     num = int(input())
     for i in range(num):
         print("Avoiding...Done! ")
+        print("How many bars should be charged?")
+        num = int(input())
+        for i in range(num):
+            print("charging")
+            print("battery fully charged")
