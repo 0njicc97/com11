@@ -1,6 +1,6 @@
 print("what type of adventure should i have?")
 adventure = input()
-if adventure == "scary or short":scary
+if adventure == "scary or short":
     print("entering the dark forest!")
 else:
     if adventure == "safe or long":
