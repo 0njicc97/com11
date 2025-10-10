@@ -1,4 +1,3 @@
-x = 5
-y = "hello world"
-print(x)
-print(y)
+awessome_name="Daren"
+for latter in awessome_name:
+    print("latter")
