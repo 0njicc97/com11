@@ -1,3 +1,6 @@
-awessome_name="Daren"
-for latter in awessome_name:
-    print("latter")
+x = "cyrille"
+print(len(x))
+
+name = "cyrille"
+x = "1,2,3"
+print(len(name) + len(x))

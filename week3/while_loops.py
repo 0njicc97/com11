@@ -16,4 +16,13 @@ for i in range(num):
             print("...done! the answer is:", 5050)
 
 
+print("howmany numbers should i sum up?")
+response = int(input())
+while response != 0:
+    print("the answer is:")
+
+
+
+
+
 
