@@ -33,11 +33,19 @@
     #print("charging")
    # print("the battery is fully charged")
 
-print("enter phrase:")
-response = ""
-HI="response"
-print(len(response))
-print("hello" + response)
+#print("enter phrase:")
+#response = ""
+#HI="response"
+#print(len(response))
+#print("hello" + response)
+
+print("calculate the sum of the first 100 numbers..")
+numbers = 1
+total = 0
+while numbers <= 100:
+    total += numbers
+    numbers += 1
+    print(f",,,Done! The answer is {total}")
 
 
 
