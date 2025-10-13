@@ -26,12 +26,22 @@
               #print(f"Done {obstacles_avoided}/{obstacles_to_avoid}")
 
 
-print("howmany bar should be charge?")
-response = input()
-bars_charged = 0:
-while response < bars_charged:
-    print("charging")
-    print("the battery is fully charged")
+#print("howmany bar should be charge?")
+#response = input()
+#bars_charged = 0:
+#while response < bars_charged:
+    #print("charging")
+   # print("the battery is fully charged")
+
+print("enter phrase:")
+response = ""
+HI="response"
+print(len(response))
+print("hello" + response)
+
+
+
+
 
 
 
