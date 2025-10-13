@@ -9,12 +9,26 @@
         #print(response)
        # break
 
-       print("howmany apples should I remove?.")
-       apples_to_remove=int(input())
-       remove_apples = 0
-       while remove_apples < apples_to_remove:
-           remove_apples = remove_apples + 1
-           print(remove_apples)
+      # print("howmany apples should I remove?.")
+       #apples_to_remove=int(input())
+       #remove_apples = 0
+      # while remove_apples < apples_to_remove:
+          # remove_apples = remove_apples + 1
+          # print(remove_apples)
+
+          print("howmany obstacles most I avoid?.")
+          obstacles_to_avoid = int(input())
+          obstacles_avoided = 0
+          while obstacles_avoided < obstacles_to_avoid:
+            print("Avoiding...", end="")
+
+              obstacles_avoided += 1
+              print(f"Done {obstacles_avoided}/{obstacles_to_avoid}")
+
+
+
+
+
 
 
 
