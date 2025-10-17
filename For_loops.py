@@ -51,8 +51,15 @@ while numbers <= 100:
     response = int(input())
     while response < 0:
         print("please enter a valid number")
-        response = int(input())
+        response = ()
         print("the answer is {response}")
+
+print("what do you see?.")
+word = ()
+print("\nDisplaying index position...?\n")
+for count in range(0,len(word), 1):
+    print(f"index {"count"}:", word[count])
+
 
 
 
