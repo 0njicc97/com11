@@ -59,6 +59,14 @@ word = ()
 print("\nDisplaying index position...?\n")
 for count in range(0,len(word), 1):
     print(f"index {"count"}:", word[count])
+print("What phrase do you want to see in reverse?")
+phrase = ()
+print("\outputting...")
+print("The phrase is:" )
+for latter in phrase:
+    print(latter)
+
+
 
 
 
