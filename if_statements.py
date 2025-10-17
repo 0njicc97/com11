@@ -64,7 +64,13 @@ else:
         third=int(input())
         if third == 5:
             print("the number is odd")
+
             
 
-
+print("please enter the first whole number.")
+first=int(input())
+if first == 3:
+    print("the first number is even")
+    print("please enter the second whole number.")
+    second=int(input())
 
