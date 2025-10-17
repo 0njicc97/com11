@@ -10,6 +10,19 @@ else:
 
 print("program ended")
 
+print("program started!")
+print("Please enter an ASCII code:")
+ASCII_code = int(input())
+if ASCII_code in range (32,127):
+    print("The ASCII code for {character} is {ASCII}")
+
+
+
+
+
+
+
+
 
 
 
