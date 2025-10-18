@@ -30,3 +30,13 @@ if steps_remaining < steps_crossed:
 elif steps_remaining > steps_crossed:
  print("we almost there")
 cross_bridge()
+
+
+def display_ladders(steps):
+ print("ASCII_ladder, + steps")
+steps_remaining = input("how many steps remain?")
+def create_ladder():
+ print("number of steps")
+number_of_steps = input("how many steps?")
+display_ladders(number_of_steps)
+create_ladder()
