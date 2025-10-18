@@ -1,8 +1,14 @@
-def my_function(identity):
- print("enter a word representing what you see")
-word = input("enter a word: ")
-if word == "a large boulder":
- print("is time to run")
-else:
- print("we will be fine")
 
+
+
+def escape_by ():
+ plan = input("enter a plan: ")
+ if plan == "jumping over":
+  print("we cannot escape that way!The boulder is too big")
+ elif plan == "running around":
+  print("we cannot escape that way!The boulder is moving fast")
+ elif plan == "cross bridge":
+  print("That might just work!lets go")
+ else: print("we cannot escape that way! The boulder is on the way")
+
+ escape_by()
