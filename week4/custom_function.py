@@ -20,3 +20,13 @@ if cross_steps > "5":
 elif cross_steps < "5":
  print("we most keep going")
 cross_bridge()
+
+def cross_bridge():
+ print("climb_ladder")
+steps_remaining = input("how many steps remain?")
+steps_crossed = input("how many steps crossed?")
+if steps_remaining < steps_crossed:
+ print("still a long way to go")
+elif steps_remaining > steps_crossed:
+ print("we almost there")
+cross_bridge()
