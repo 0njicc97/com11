@@ -14,6 +14,20 @@ def identity ():
         print("we will be fine.")
     identity()
 
+def escape_by(plan):
+    if plan == "jumping over":
+        print("we cannot escape that way! The Boulder is too big!")
+    if plan == "Running around":
+        print("We cannot escape that way! The Boulder is moving too fast")
+    if plan == "cross bridge":
+        print("That might just work!Let's go!")
+    else:
+        print("We cannot escape that way! The boulder is in the way")
+    escape_by("jumping over")
+
+
+
+
 
 
 
