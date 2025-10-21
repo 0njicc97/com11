@@ -26,6 +26,21 @@ def escape_by(plan):
     escape_by("jumping over")
 
 
+def cross_bridge (steps):
+    print("cross steps")
+    if steps > 5:
+        print("The bridge is collapsing!")
+    else:
+        print("We most keep going")
+    cross_bridge(4)
+    cross_bridge(3)
+    cross_bridge(2)
+    cross_bridge(1)
+
+
+
+
+
 
 
 
