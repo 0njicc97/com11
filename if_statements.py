@@ -1,5 +1,6 @@
-print("what type of book is this?")
-book=input()
+print("what type of book is this")
+
+book = input()
 
 if book == "adventure":
    print("I Like adventure books!")
@@ -67,10 +68,15 @@ else:
 
             
 
-print("please enter the first whole number.")
-first=int(input())
-if first == 3:
-    print("the first number is even")
-    print("please enter the second whole number.")
-    second=int(input())
-
+#print("please enter the first whole number.")
+#first=int(input())
+#if first == 3:
+    #print("the first number is even")
+    #print("please enter the second whole number.")
+    #second=int(input())
+print("whats my favourite food")
+food=input()
+if food == "fried rice":
+    print("great")
+else:
+    print("not a fried rice")

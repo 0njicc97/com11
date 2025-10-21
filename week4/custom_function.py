@@ -40,3 +40,14 @@ def create_ladder():
 number_of_steps = input("how many steps?")
 display_ladders(number_of_steps)
 create_ladder()
+
+def some_weight():
+ return weight_of_character + weight_of_person
+weight_of_character =input()
+weight_of_person = input()
+
+def calc_avg_weight():
+ return weight_of_character +weight_of_person
+some_weight()
+
+def run():
