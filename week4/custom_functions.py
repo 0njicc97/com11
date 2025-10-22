@@ -37,6 +37,20 @@ def cross_bridge (steps):
     cross_bridge(2)
     cross_bridge(1)
 
+def display_ladder (steps):
+    print(f"Ascii ladder {steps}")
+def create_ladder ():
+    steps = input("How many steps would you like?")
+display_ladder(8)
+create_ladder()
+display_ladder(8)
+create_ladder()
+display_ladder(8)
+
+
+
+
+
 
 
 
