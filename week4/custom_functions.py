@@ -47,6 +47,35 @@ display_ladder(8)
 create_ladder()
 display_ladder(8)
 
+def sum_weight(weight_of_character, weight_of_inventory):
+    total = weight_of_character + weight_of_inventory
+    return total
+def calc_avg_weight(weight_of_character, weight_of_inventory):
+    total = sum_weight(weight_of_character, weight_of_inventory)
+    average = total / 2
+    return average
+def run ():
+    character_weight = float(input("weight_of_character: "))
+    inventory_weight = float(input("weight_of_inventory: "))
+
+    choice = input('Type "sum" to calculate total weight of character and "average" to calculate average weight of character')
+    if choice == "sum":
+        total = sum_weight(character_weight, inventory_weight)
+        print("f the total weight of character is ", total)
+    elif choice == "average":
+        average = calc_avg_weight(character_weight, inventory_weight)
+        print("f the average weight of character is ", average)
+    else:
+        print("invalid choice, please type sum or average")
+
+
+
+
+
+
+
+
+
 
 
 
