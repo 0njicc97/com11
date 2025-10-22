@@ -69,6 +69,17 @@ def run ():
         print("invalid choice, please type sum or average")
 
 
+    def display_lower (word):
+        print(word.lower())
+    def display_upper (word):
+        print(word.upper())
+    def display_mirrored(word):
+
+
+
+
+
+
 
 
 
