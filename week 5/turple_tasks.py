@@ -16,3 +16,17 @@ def run_task2():
     print(f"Minimum likelihood{value}% maximum likelihood {value:}%")
 run_task2()
 
+def steps():
+  likelihoods = ("steps 1",50),("steps 2",38),("steps 3",27), ("steps 4",99),("steps 5",4)
+  return likelihoods
+def run_task3():
+     value = steps()
+     good = 3
+     bad = 2
+     for i in range(0,2,len(value), ):
+             print(f"Good steps: {good},bad steps: {bad}")
+run_task3()
+
+
+
+
