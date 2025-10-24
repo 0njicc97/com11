@@ -73,7 +73,6 @@ def run ():
         print(word.lower())
     def display_upper (word):
         print(word.upper())
-    def display_mirrored(word):
 
 
 
