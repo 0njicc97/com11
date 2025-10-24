@@ -23,7 +23,7 @@ def run_task3():
      value = steps()
      good = 3
      bad = 2
-     for i in range(0,2,len(value), ):
+     for i in range(len(value), ):
              print(f"Good steps: {good},bad steps: {bad}")
 run_task3()
 
