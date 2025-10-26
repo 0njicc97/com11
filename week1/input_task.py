@@ -25,6 +25,17 @@ print("enter your weight, in kilograms")
 weight = float(input())
 print(f"your name is {name}, your age is {age},  your weight is {weight}")
 
+# Read in data
+print("Please enter number of lives")
+lives = int(input())
 
+print("Please enter energy level")
+energy = int(input())
 
+print("Please enter shield level")
+shield = int(input())
 
+# Display bot data
+print(f"Lives:  {'♥' * lives}")
+print(f"Energy: {'♦' * energy}")
+print(f"Shield: {'♦' * shield}")
