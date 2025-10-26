@@ -7,7 +7,7 @@ def test ():
   print("On God.")
   print("fine me.")
   print("hello world in cocming.")
-  print("cyber sercurity.")
+  print("cyber security.")
   print("hello world.")
   print("age.")
   input("what is your name?")

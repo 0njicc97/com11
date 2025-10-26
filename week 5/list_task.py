@@ -20,15 +20,43 @@ run_task2()
 
 
 
+#def directions():
+  #  steps = ("Move Forward", "Move Backward", "Turn Left" "Turn Right")
+ #   return steps
+#def menu():
+    #print("please select a direction:")
+   # choice = direction()
+  #  for i in range(0,len(choice),):
+ #       print(f"{i}: {choice[i]} ")
+#menu()
+
+
+
+
+
+
 def directions():
-    steps = ("Move Forward", "Move Backward", "Turn Left" "Turn Right")
-    return steps
-def menu():
+       steps = ("Move Forward", "Move Backward", "Turn Left", "Turn Right")
+       return steps
+def menu_and_input():
     print("please select a direction:")
-    choice = direction()
-    for i in range(0,len(choice),):
-        print(f"{i}: {choice[i]} ")
-menu()
+    choice = directions()
+    for i in range(0, len(choice), 1):
+        print(f"{i}: {choice[i]}")
+
+def run_task4():
+    route = ()
+    print("working out escape route")
+
+    for i in range(5):
+        choice = menu_and_input()
+        route += choice
+
+
+
+
+
+
 
 
 
