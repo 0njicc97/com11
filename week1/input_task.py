@@ -12,5 +12,11 @@ eye = input()
 print("########")
 print("#      #")
 print("########")
+print("your age is?")
+user_age = input()
+print(f"your age is {user_age}")
+
+
+
 
 
