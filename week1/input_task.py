@@ -17,6 +17,14 @@ user_age = input()
 print(f"your age is {user_age}")
 
 
+print("enter your name")
+name = input()
+print("enter your age,in years")
+age = int(input())
+print("enter your weight, in kilograms")
+weight = float(input())
+print(f"your name is {name}, your age is {age},  your weight is {weight}")
+
 
 
 
