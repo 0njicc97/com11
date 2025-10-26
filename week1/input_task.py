@@ -4,3 +4,13 @@ print(f"It is nice to meet you  {name}")
 
 name = input("whats is your name?")
 print(f"It is nice to meet you  {name}")
+
+
+
+print("please enter a character for the eye")
+eye = input()
+print("########")
+print("#      #")
+print("########")
+
+
