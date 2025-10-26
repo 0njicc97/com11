@@ -15,3 +15,7 @@ print("\" Display a double quote")
 print("\" Display a single quote")
 
 print("\t I am programming!")
+
+print("########")
+print("#      #")
+print("########")
