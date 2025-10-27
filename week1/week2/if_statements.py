@@ -43,3 +43,30 @@ elif first_number == second_number:
     print(f"the number {first_number} is equal to the number {second_number}")
 else:
     print(f"the number {first_number} is less than the number {second_number}")
+
+
+print("enter first number?")
+first_number = int(input())
+print("enter second number?")
+second_number = int(input())
+print("please enter a third number?")
+third_number = int(input())
+
+even_number = 0
+odd_number = 0
+if first_number % 2 == 0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+if second_number % 2 == 0:
+        even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+if third_number % 2 == 0:
+        even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+    print(f"there are {even_number} even and {odd_number} odd")
+
+
+
