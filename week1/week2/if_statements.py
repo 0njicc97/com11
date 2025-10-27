@@ -51,7 +51,6 @@ print("enter second number?")
 second_number = int(input())
 print("please enter a third number?")
 third_number = int(input())
-
 even_number = 0
 odd_number = 0
 if first_number % 2 == 0:
@@ -59,14 +58,17 @@ if first_number % 2 == 0:
 else:
     odd_number = odd_number + 1
 if second_number % 2 == 0:
-        even_number = even_number + 1
-else:
     odd_number = odd_number + 1
+else:
+    even_number = even_number + 1
 if third_number % 2 == 0:
-        even_number = even_number + 1
-else:
     odd_number = odd_number + 1
-    print(f"there are {even_number} even and {odd_number} odd")
+else:
+    even_number = even_number + 1
+
+    print(f"there are  {even_number}  even number and {odd_number}  odd number")
+
+
 
 
 
