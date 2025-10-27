@@ -32,3 +32,14 @@ if number % 2 == 0:
     print(f"the number {number} is an even number")
 else:
     print(f"the number {number} is an odd number")
+
+print("please entr a first number?")
+first_number = int(input())
+print("please enter a second number?")
+second_number = int(input())
+if first_number > second_number:
+    print(f"the number {first_number} is greater than the number {second_number}")
+elif first_number == second_number:
+    print(f"the number {first_number} is equal to the number {second_number}")
+else:
+    print(f"the number {first_number} is less than the number {second_number}")
