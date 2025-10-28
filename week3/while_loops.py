@@ -13,12 +13,25 @@
 #
 
 
-print("Howmany obstacles should I avoid?")
-obstacles_to_avoid = int(input())
-obstacles_avoided = 0
+# print("Howmany obstacles should I avoid?")
+# obstacles_to_avoid = int(input())
+# obstacles_avoided = 0
+#
+# while obstacles_avoided < obstacles_to_avoid:
+#     print("Avoiding")
+#     obstacles_avoided += 1
+#     print(f"Avoiding...done! {obstacles_avoided} obstacles avoided")
+# print("All obstacles have been avoided.")
 
-while obstacles_avoided < obstacles_to_avoid:
-    print("Avoiding")
-    obstacles_avoided += 1
-    print(f"Avoiding...done! {obstacles_avoided} obstacles avoided")
-print("All obstacles have been avoided.")
+
+print("Howmany Bars should i charge?")
+bars_to_charge = int(input())
+bars_charged = 0
+while bars_to_charge < bars_charged:
+   print("charging")
+   bars_charged +=1
+   print(f"{bars_charged} bars charged")
+   print("Battery fully charge")
+
+
+
