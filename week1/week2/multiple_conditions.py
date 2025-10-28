@@ -51,14 +51,22 @@
 
 
 
-print(" enter the type of adventure")
-adventure = input()
-if adventure == "scary" or "short":
-    print("Entering the dark forest")
-elif adventure == "safe" or "long":
-    print("Taking a safe route!")
+# print("enter the type of adventure")
+# adventure = input()
+# if adventure == "scary" or "short":
+#     print("Entering the dark forest")
+# elif adventure == "safe" or "long":
+#     print("Taking a safe route!")
+# else:
+#     print("not sure which route to take")
+#
+
+
+print("what did I hear?")
+hear = input()
+print("what did I see?")
+see = input()
+if hear == "hoot" and see == "some big eyes":
+    print("there is a scary creature I should get out")
 else:
-    print("not sure which route to take")
-
-
-
+    print("I am a little scared but i will continue")
