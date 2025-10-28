@@ -61,12 +61,7 @@
 #     print("not sure which route to take")
 #
 
+#
 
-print("what did I hear?")
-hear = input()
-print("what did I see?")
-see = input()
-if hear == "hoot" and see == "some big eyes":
-    print("there is a scary creature I should get out")
-else:
-    print("I am a little scared but i will continue")
+
+
