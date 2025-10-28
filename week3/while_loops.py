@@ -24,14 +24,21 @@
 # print("All obstacles have been avoided.")
 
 
-print("Howmany Bars should i charge?")
-bars_to_charge = int(input())
-bars_charged = 0
-while bars_to_charge < bars_charged:
-   print("charging")
-   bars_charged +=1
-   print(f"{bars_charged} bars charged")
-   print("Battery fully charge")
+# print("Howmany Bars should i charge?")
+# bars_to_charge = int(input())
+# bars_charged = 0
+# while bars_to_charge < bars_charged:
+#    print("charging")
+#    bars_charged +=1
+#    print(f"{bars_charged} bars charged")
+#    print("Battery fully charge")
+#
+#
 
+print("Please enter a phrase:")
+phrase = input()
+
+for x in range(len(phrase)):
+    print(f"{x} {phrase}")
 
 
