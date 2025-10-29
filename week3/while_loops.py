@@ -35,18 +35,27 @@
 #
 #
 
-# print("Please enter a phrase:")
-# phrase = input()
+print("Please enter a phrase:")
+phrase = input()
+
+for laters in phrase:
+    print(laters)
+
 #
-# for x in range(len(phrase)):
-#     print(f"{x} {phrase}")
-
-
-print("calculating the sum of the first 100 numbers")
-number = 1
-total = 0
-while number <= 100:
-    total += number
-    number += 1
-    print(f"...done,the answer is: {total} ")
+# print("calculating the sum of the first 100 numbers")
+# number = 1
+# total = 0
+# while number <= 100:
+#     total += number# print("Howmany numbers should I sum up?")
+# # numbers_to_sum = int(input())
+# # count = 0
+# # total = 0
+# # while count < numbers_to_sum:
+# #     total = total + count
+# #     count += 1
+# #     print(f"{count}")
+# #
+#     number += 1
+#     print(f"...done,the answer is: {total} ")
+#
 
