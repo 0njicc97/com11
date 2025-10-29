@@ -34,12 +34,12 @@
 #    print("Battery fully charge")
 #
 #
-
-print("Please enter a phrase:")
-phrase = input()
-
-for laters in phrase:
-    print(laters)
+#
+# print("Please enter a phrase:")
+# phrase = input()
+#
+# for laters in phrase:
+#     print(laters)
 
 #
 # print("calculating the sum of the first 100 numbers")
