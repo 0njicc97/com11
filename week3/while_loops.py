@@ -35,10 +35,18 @@
 #
 #
 
-print("Please enter a phrase:")
-phrase = input()
+# print("Please enter a phrase:")
+# phrase = input()
+#
+# for x in range(len(phrase)):
+#     print(f"{x} {phrase}")
 
-for x in range(len(phrase)):
-    print(f"{x} {phrase}")
 
+print("calculating the sum of the first 100 numbers")
+number = 1
+total = 0
+while number <= 100:
+    total += number
+    number += 1
+    print(f"...done,the answer is: {total} ")
 
