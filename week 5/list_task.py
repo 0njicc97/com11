@@ -20,15 +20,15 @@ run_task2()
 
 
 
-#def directions():
-  #  steps = ("Move Forward", "Move Backward", "Turn Left" "Turn Right")
- #   return steps
-#def menu():
-    #print("please select a direction:")
-   # choice = direction()
-  #  for i in range(0,len(choice),):
- #       print(f"{i}: {choice[i]} ")
-#menu()
+def directions():
+   steps = ("Move Forward", "Move Backward", "Turn Left" "Turn Right")
+   return steps
+def menu():
+    print("please select a direction:")
+    choice = direction()
+    for i in range(0,len(choice),):
+       print(f"{i}: {choice[i]} ")
+menu()
 
 
 
