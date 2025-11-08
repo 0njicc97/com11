@@ -26,24 +26,24 @@
 #
 # run()
 
-def short_pattern():
-    pattern = {'sequence':'101','occurrences':'5'}
-    return pattern
-def medium_pattern():
-    pattern = {'sequence':'111000','occurrences':'25'}
-    return pattern
-def long_pattern():
-    pattern = {'sequence':'110011001100','occurrences':'50'}
-    return pattern
-def run_task3():
-    print("Analysing patterns...")
-    pattern = {
-        "short_sequence":short_pattern(),
-        "medium_sequence":medium_pattern(),
-        "long_sequence":long_pattern() }
-
-    for key,value in pattern.items():
-        print(f"{key}: {value}")
-run_task3()
+# def short_pattern():
+#     pattern = {'sequence':'101','occurrences':'5'}
+#     return pattern
+# def medium_pattern():
+#     pattern = {'sequence':'111000','occurrences':'25'}
+#     return pattern
+# def long_pattern():
+#     pattern = {'sequence':'110011001100','occurrences':'50'}
+#     return pattern
+# def run_task3():
+#     print("Analysing patterns...")
+#     pattern = {
+#         "short_sequence":short_pattern(),
+#         "medium_sequence":medium_pattern(),
+#         "long_sequence":long_pattern() }
+#
+#     for key,value in pattern.items():
+#         print(f"{key}: {value}")
+# run_task3()
 
 
