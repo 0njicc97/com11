@@ -17,6 +17,9 @@
 # if __name__ == "__main__":
 #     run()
 import csv
+from io import TextIOWrapper, _WrappedBuffer
+
+
 #
 #
 # def display_chars(fle_path,num_chars):
@@ -84,25 +87,26 @@ import csv
 # if __name__ == "__main__":
 #     run_task4()
 
-
 import csv
+def display_chars(file_path,num_chars):
+  with open(file_path,"r")as file:
+        text = file.read(num_chars)
+        print(text)
 
 
-def read(file_path):
-    with open(file_path) as file:
-        csv_reader = csv.reader(file)
+def display_lines(file_path):
+  with open(file_path,"r")as file:
+   line=file.readlines()
+   print(line.strip())
 
-        headings = next(csv_reader)
-        print(f"Headings:\n{headings}")
+def display_text(file_path):
+  with open(file_path,"r")as file:
+   reader = file.read
+   print(reader)
 
-        print("Values:")
-        for values in csv_reader:
-            print(values)
-
-
-def run_task1():
-    read("clothing.csv")
-
-
-if __name__ == "__main__":
-    run_task1()
+def run_task2():
+ file_path ="week6/library.txt"
+ display_chars(file_path,10)
+ display_lines(file_path)
+ display_text(file_path)
+run_task2()

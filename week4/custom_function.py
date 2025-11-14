@@ -50,4 +50,4 @@ def calc_avg_weight():
  return weight_of_character +weight_of_person
 some_weight()
 
-def run
+
